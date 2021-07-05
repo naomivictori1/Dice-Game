@@ -19,18 +19,18 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src", diceImages[
 function diceGame(){
   if (randomIndex === randomIndex2) {
 
-    document.querySelector("h1").innerText = "It's a tie!";
+    document.querySelector("h2").innerText = "It's a tie!";
   }
 
   else if (randomIndex > randomIndex2) {
 
-    document.querySelector("h1").innerText = "🚩Player 1 wins!";
+    document.querySelector("h2").innerText = "🚩Player 1 wins!";
 
   }
 
   else if (randomIndex2 > randomIndex) {
 
-    document.querySelector("h1").innerText = "🚩Player 2 wins!";
+    document.querySelector("h2").innerText = "🚩Player 2 wins!";
   }
 }
 
